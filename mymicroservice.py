@@ -7,7 +7,7 @@ import json
 app = Flask(__name__)
 
 # Configure the Generative AI API key
-genai.configure(api_key="AIzaSyBjKe4Wk6CUtT0oSG1pUaq4Sn0ER90JpGY")
+genai.configure(api_key="")
 model = genai.GenerativeModel(model_name="gemini-1.5-flash")
 
 # Function to generate a summary using the AI model with a dynamic prompt
