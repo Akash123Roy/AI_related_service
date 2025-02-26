@@ -5,7 +5,7 @@ import google.generativeai as genai
 from IPython.display import Markdown
 # from google.colab import userdata
 
-API_KEY= "AIzaSyBjKe4Wk6CUtT0oSG1pUaq4Sn0ER90JpGY"
+API_KEY= ""
 genai.configure(api_key=API_KEY)
 
 # for m in genai.list_models():
